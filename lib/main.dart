@@ -50,7 +50,7 @@ class _MyWebViewState extends State<MyWebView> {
 
     // _removeSplash();
 
-    Future.delayed(const Duration(seconds: 5), () {
+    Future.delayed(const Duration(seconds: 3), () {
     FlutterNativeSplash.remove(); 
   });
 
